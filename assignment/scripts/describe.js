@@ -59,12 +59,12 @@ if (name === 'Mary') {
 
 // 2.
 // DESCRIPTION:
-// 
-// 
-// 
-//
+// We create two variables, `secret` and `code`, and value `code` to `123`.
+// We check if `code` is equal to `123`. Since it is, we set `secret` to `'super'` and double `code` (resulting in `246`).
+//  We then check if `code` is greater than`. Since it is, we set `secret` to `'duper'
+//Finally, we log the value of `secret`, which is now `'duper'`.
 // OUTCOME:
-//
+//'duper'
 
 // CODE:
 /*
