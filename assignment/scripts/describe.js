@@ -50,7 +50,7 @@ let name = 'Dane';
 if (name === 'Mary') {
   console.log('Hi, Mary!');
 } else {
-  console.log('How do you do?');
+  console.log('How do you do?'
 }
 */
 
@@ -89,12 +89,12 @@ console.log(secret)
 
 // 3.
 // DESCRIPTION
-// 
-// 
-// 
-//
+// We create three variables: `isStudent`, `age`, and `zip`, and initialize them to `true`, `34`, and `554 respectively
+//  We check if `isStudent` is `true` and `zip` is greater than `80000`. Since both conditions are false, we move to the next `else if` block.
+// The next `else if` block checks if `isStudent` is `false` or `age` is less than `30`. Since `isStudent` is `true`, this condition is false, so we move to the next `else if` block.
+//The final `else if` block checks if `isStudent` is `true`. Since it is, it logs `'Welcome to Prime!'`
 // OUTCOME:
-//
+//'Welcome to Prime!'
 
 // CODE:
 /*
