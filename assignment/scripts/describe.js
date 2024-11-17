@@ -33,15 +33,15 @@ if (number >= 2) {
 
 // 1.
 // DESCRIPTION
-// 
-// 
-//
-//
+// We make a variable named name and assign it the value to 'Dane'.
+// we then check if name is equal to 'mary'.
+//Since it is not, we executes the else block.
+//The else block logs 'How do you do?,.
 //
 //
 //
 // OUTCOME:
-//
+//'How do you do?.
 
 // CODE:
 /*
