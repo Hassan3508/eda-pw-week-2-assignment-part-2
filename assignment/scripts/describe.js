@@ -154,6 +154,11 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 // CODE:
+
+//The description does not mathe the code.
+//The correct code should have colorOne to 'blue' and colorTwo to 'red'
+
+
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
