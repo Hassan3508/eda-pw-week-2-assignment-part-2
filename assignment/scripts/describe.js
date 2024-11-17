@@ -179,6 +179,7 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 // CODE:
+// The code is correct as per description.
 /*
 let temp = 40;
 const time = 4;
