@@ -59,12 +59,12 @@ if (name === 'Mary') {
 
 // 2.
 // DESCRIPTION:
-// We create two variables, `secret` and `code`, and value `code` to `123`.
+/// We create two variables, `secret` and `code`, and assign `code` the value `123`.
 // We check if `code` is equal to `123`. Since it is, we set `secret` to `'super'` and double `code` (resulting in `246`).
-//  We then check if `code` is greater than`. Since it is, we set `secret` to `'duper'
-//Finally, we log the value of `secret`, which is now `'duper'`.
+// We then check if `code` is greater than `250`. Since it is not, `secret` remains `'super'`.
+// Finally, we log the value of `secret`, which is `'super'`.
 // OUTCOME:
-//'duper'
+// 'super'
 
 // CODE:
 /*
@@ -165,11 +165,11 @@ if (mix === true) {
   
 }
 */
-//FIX- Swapped values of colorOne and colorTwo.
-//FIX colorTwo should be set up to pupple too as instructions says both color to be set to 'purple.
+//FIX- Swapped initial values of colorOne and colorTwo.
+//FIX colorTwo should be set up to pupple too as instructions says both color to be set 'purple.
 // ------------------------------------------------------------ //
 // ------------------------------------------------------------ //
-let colorOne = 'blue';
+/*let colorOne = 'blue';
 let colorTwo = 'red';
 let mix = true;
 
@@ -192,7 +192,7 @@ if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
 */
-//FIX error of OR || insted replace with AND &&
+//FIX -Replace the OR (||) operator with AND (&&) so that it match the description.
 /*let temp = 40;
 const time = 4;
 
