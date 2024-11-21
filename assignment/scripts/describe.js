@@ -92,7 +92,7 @@ console.log(secret)
 // We create three variables: `isStudent`, `age`, and `zip`, and initialize them to `true`, `34`, and `554 respectively
 //  We check if `isStudent` is `true` and `zip` is greater than `80000`. Since both conditions are false, we move to the next `else if` block.
 // The next `else if` block checks if `isStudent` is `false` or `age` is less than `30`. Since `isStudent` is `true`, this condition is false, so we move to the next `else if` block.
-//The final `else if` block checks if `isStudent` is `true`. Since it is, it logs `'Welcome to Prime!'`
+//The final else if block checks if isStudent is true.since it is, it logs 'welcome to prime!'
 // OUTCOME:
 //'Welcome to Prime!'
 
@@ -155,10 +155,6 @@ if (number >= 2) {
 
 // CODE:
 
-//The description does not mathe the code.
-//The correct code should have colorOne to 'blue' and colorTwo to 'red'
-
-
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
@@ -166,12 +162,20 @@ let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  
 }
 */
-
+//FIX- Swapped values of colorOne and colorTwo.
+//FIX colorTwo should be set up to pupple too as instructions says both color to be set to 'purple.
 // ------------------------------------------------------------ //
 // ------------------------------------------------------------ //
+let colorOne = 'blue';
+let colorTwo = 'red';
+let mix = true;
 
+if (mix === true) {
+  colorOne = 'purple';
+  colorTwo = 'purple';
 // 5.
 // DESCRIPTION:
 // We start with two variables -- temp is set to 40 and time is set to 4.
@@ -179,7 +183,7 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 // CODE:
-// The code is correct as per description.
+// 
 /*
 let temp = 40;
 const time = 4;
@@ -188,7 +192,13 @@ if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
 */
+//FIX error of OR || insted replace with AND &&
+/*let temp = 40;
+const time = 4;
 
+if (temp > 39 && time >= 4) {
+  console.log('throw away the food!');
+}
 // ------------------------------------------------------------ //
 // ------------------------------------------------------------ //
 
@@ -199,9 +209,6 @@ if (temp > 39 || time >= 4) {
 // -- it is, so we console.log 'enter'.
 
 // CODE:
-//The code checks if `age` is greater than or equal to `minAge`.
-// If the condition is met, it logs 'enter'.
-// However, the code provided logs 'no entry' if the condition is met, which contradicts the description. The correct code should log 'enter' if `age` is greater than or equal to `minAge`.
 /*
 let age = 21;
 const minAge = 21;
@@ -212,3 +219,10 @@ if(minAge <= age) {
   console.log('enter');
 }
 */
+//FIX- statement ask age is greater than minAge not min age less than age.
+//Swapped logs
+/*
+if(age >= minAge) {
+  console.log('entry');
+} else {
+  console.log('no entry');
